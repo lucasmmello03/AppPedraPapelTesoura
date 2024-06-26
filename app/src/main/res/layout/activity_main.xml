@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F7F6F6"
+    android:background="#292525"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,7 +15,8 @@
         android:layout_marginTop="60dp"
         android:backgroundTint="#2C272D"
         android:text="Escolha do App"
-        android:textSize="20sp"
+        android:textColor="#F4F2F2"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Escolha uma opção abaixo:"
+        android:textColor="#F7F2F2"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -85,6 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Resultado"
+        android:textColor="#F2EFEF"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
